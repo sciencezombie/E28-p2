@@ -3,9 +3,6 @@
     <hr>
    <Button class="edit-btn" @click="$router.replace('/')">Edit Post</Button>
    <div class="content-view" ref="contentContainer" v-html="content"></div>
-    <div id="preview">
-    <img v-if="url" :src="url" />
-  </div>
   </div>
 </template>
  <script>
